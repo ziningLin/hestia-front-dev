@@ -1,0 +1,25 @@
+src/
+  ├── assets/                           # 靜態資源，ex:圖片、字體、樣式表...
+  ├── components/                       # 功能模組
+  │     ├── ex:user/                    # 用戶功能相關的元件
+  │     ├── ex:room/                    # 房間功能相關的元件
+  ├── shared/                           # 通用組件，ex:按鈕、輸入框...
+  │     ├── ex:Button.vue               #
+  │     └── ex:Modal.vue                #
+  ├── layouts/                          # 頁面佈局
+  │     ├── DefaultLayout.vue           # 通用佈局（帶有 header 和 footer）
+  │     └── ex:AuthLayout.vue           # 登入或註冊頁面的專用佈局
+  ├── views/                            # 主頁面視圖
+  │     ├── Home.vue                    # 首頁
+  │     ├── Product.vue                 # 產品頁面視圖
+  │     └── About.vue                   # 關於頁面
+  ├── routers/                          # 路由設定
+  ├── stores/                           # 全局狀態管理 (Pinia)
+  │     ├── ex:userStore.js             # 用戶相關狀態
+  │     └── ex:roomStore.js             # 房間相關狀態
+  ├── plugins/                          # 插件設定
+  │     ├── axios.js                    # Axios 
+  │     └── other-plugin.js             # 其他第三方插件
+  ├── utils/                            # 通用工具函數(日期、驗證...)
+  ├── App.vue                           # 根組件
+  └── main.js                           # 應用的入口文件
